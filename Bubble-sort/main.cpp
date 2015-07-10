@@ -1,7 +1,7 @@
 # include <iostream>
 
 template<typename T>
-void BubbleSort(const T& arr[], const short& n)
+void BubbleSort(T arr[], const short& n)
 {
     short temp = 0;
     for (auto i = 0; i < n; i++)
@@ -19,7 +19,7 @@ void BubbleSort(const T& arr[], const short& n)
 }
 
 template<typename T>
-static void PrintArray(const T& arr[], const short& n)
+static void PrintArray(T arr[], const short& n)
 {
     for (auto i = 0; i < n; i++)
         std::cout << arr[i] << std::endl;
