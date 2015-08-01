@@ -1,1 +1,10 @@
+# Object files
 *.o
+
+# Visual studio files
+[Dd]ebug/
+
+*.sdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
