@@ -3,6 +3,7 @@
 
 # Visual studio files
 [Dd]ebug/
+.vs/
 
 *.sdf
 *.sln
