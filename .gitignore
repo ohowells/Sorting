@@ -6,6 +6,7 @@
 .vs/
 
 *.sdf
+*.opensdf
 *.sln
 *.vcxproj
 *.vcxproj.filters
