@@ -45,8 +45,8 @@ void Quicksort(int *arr, const int& left, const int& right, const int& size)
 
 int main(void) 
 {
-	int arr[] = { 110, 5, 10,3 ,22, 100, 1, 23 };
-	int size = sizeof(arr) / sizeof(arr[0]);
+	int arr[] = { 110, 5, 10, 3, 22, 100, 1, 23 };
+	int size = std::end(arr) - std::begin(arr);
 
 	Print(arr, size);
 	Quicksort(arr, 0, size - 1, size);
