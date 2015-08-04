@@ -11,7 +11,7 @@ void HeapSort(RandItr begin, RandItr end)
 
 int main(void) 
 {
-	short arr[] = { -22, -1, 2, 7, 10, 33, 177, 255, 1000 };
+	short arr[] = { 1000, -22, 255, -1, 2, 7, 33, 10, 177, };
 
 	HeapSort(std::begin(arr), std::end(arr));
 	copy(std::begin(arr), std::end(arr), std::ostream_iterator<short>(std::cout, " "));
