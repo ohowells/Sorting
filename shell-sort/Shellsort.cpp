@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <algorithm>
 
@@ -10,7 +9,6 @@ void ShellSort(int arr[], const int& n)
 	{
 		for (int i = gap; i < n; ++i)
 			for (int j = i - gap; j >= 0 && arr[j] > arr[j + gap]; j -= gap)
-		
 				std::swap(arr[j], arr[j + gap]);
 	}
 }
