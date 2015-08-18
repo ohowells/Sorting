@@ -1,5 +1,6 @@
-#include <algorithm>
 #include <iostream>
+#include <iterator>
+#include <utility>
 
 template<typename T>
 void SelectionSort(T arr[], const int& n)
