@@ -1,19 +1,15 @@
-# include <iostream>
+#include <iostream>
+#include <utility>
 
 template<typename T>
 void BubbleSort(T arr[], const short& n)
 {
-    short temp = 0;
     for (auto i = 0; i < n; i++)
     {
         for(auto j = 0; j < n-1; j++)
         {
-            if(arr[j] < arr[i])
-            {
-                temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
+			if (arr[j] < arr[i])
+				std::swap(arr[i], arr[j]);
         }
     }
 }
